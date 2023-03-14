@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<body style="background-color:powderblue;">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">   
+		<!-- bootstrap css link starts here -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+		<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+			ul{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				height: 60px;
+				background-color: blue;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 15px;	
+				
+				}	
+			li{
+				float: right;
+				border-left: 1px white;
+				}
+			.navigation {
+				display: block;
+				padding: 5px 10px;
+				color: white;
+				text-decoration: none;
+				font-weight: 30px;
+				}
+			a.navigation:hover {
+				background-color: #d1e3eb;
+                text-decoration: none;
+				 }
+			</style>		
+	</head>
+	 <body>
+			<img src="WhatsApp Image 2021-07-11 at 11.25.44 AM.jpeg" height="55" width="50" style="border-radius: 200px;float: left; margin-left: 40px; padding-top: 10px;" />
+			<p style="font-size: 25px;font-weight: 600; font-family: 'Otomanopee One', sans-serif; float: left;letter-spacing: 1.4px;margin-left: 5px; color: white; padding-bottom: 5px; padding-top: 10px; ">MEDICMIND.COM</p>
+			
+		<ul>
+			<button type="button" class="btn btn-success" style="float: right; margin-right: 20px; margin-top: 10px;" data-toggle="modal" data-target="#exampleModalCenter">LOG IN</button>
+			<button type="button" class="btn btn-warning" style="float: right; margin-right: 20px; margin-top: 10px; "><a href="user_signup/index.html">SIGN UP</a></button>
+		</ul>
+	<br>
+
+		<ul>
+			<li><a class="navigation" href="contactus.html#">Contact us<span>&nbsp&nbsp<i class='fa fa-heart' style='font-size:20px'></i></span></a></li>
+			<li><a class="navigation" href="aboutus.html#">About us<span>&nbsp&nbsp<i class='fa fa-question-circle' style='font-size:20px'></i></span></a></li>
+			<li><a class="navigation" href="#" data-toggle="modal" data-target="#exampleModalCenter">Registration<span>&nbsp&nbsp<i class="fa fa-address-book-o" style="font-size:20px;" aria-hidden="true"></i></span></a></li>
+			<li><a class="navigation" href="#">Doctor's Appointment<span>&nbsp&nbsp<i class="fa fa-calendar-plus-o" style="font-size:20px;" aria-hidden="true"></i></span></a>  </li>
+			<li><a class="navigation" href="drug.html#">Drug store<span>&nbsp&nbsp<i class="fa fa-institution" style="font-size:20px"></i></span></a></li>
+			<li><a class="navigation" href="ambulance.html#">Ambulance<span>&nbsp&nbsp<i class='fa fa-ambulance' style='font-size:20px'></i></span></a></li>
+			<li><a class="navigation" href="#">Pathology Centers<span>&nbsp&nbsp<i class="fa fa-medkit" style="font-size:20px;" aria-hidden="true"></i></span></a></li>
+			<li><a class="navigation" href="doctorlist.html#">Our Doctors's list<span>&nbsp&nbsp<i class='fa fa-user-md' style='font-size:20px'></i></span></a></li>
+			<li><a class="navigation" href="index.html#">Home<span>&nbsp&nbsp<i class='fa fa-home' style='font-size:20px'></i></span></a></li>
+		</ul>
+        <!-- modal number 1 -->
+	    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Register as</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<div class="row" style="padding: 30px;">
+							<!-- doctor option -->
+							<div onclick="location.href='file:///C:/Users/OEISHANI/Desktop/MCA-project/doc-acc-new.html'" class="col" style="text-align: center; border: 1px solid black; padding: 10px; cursor: pointer;">
+							<span><i class="fa fa-briefcase"></i></span> Admin
+							</div>
+							&nbsp;&nbsp;&nbsp;
+							<!-- patient option -->
+							<div onclick="href "" " class="col" style="text-align: center; border: 1px solid black; padding: 10px; cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter1">
+							<span><i class="fa fa-child"></i></span> User
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><b>Close</b></button>
+						<button type="button" class="btn btn-warning"><b><a href="user_login/index.html">I have an account</a></b></button>
+					</div>
+				</div>
+			</div>
+		</div>
+         <!-- modal number 2 -->
+		<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Register as</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<div class="row" style="padding: 30px;">
+							<!-- doctor option -->
+							<div onclick="location.href='user_login/index.html'" class="col" style="text-align: center; border: 3px solid black; padding: 10px; cursor: pointer; font-weight: 300; "> LOG IN
+							</div>
+							&nbsp;&nbsp;&nbsp;
+							<!-- patient option -->
+							<div onclick="location.href='user_signup/index.html'" class="col" style="text-align: center; border: 1px solid black; padding: 10px; cursor: pointer;" > SIGN UP
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><b>Close</b></button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+			<!-- bootstrap js link starts here -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         
+        </body>
+		<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<div class="w3-content w3-section" style="max-width:640px">
+  <img class="mySlides" src="bg-main-directory.png" style="width:100%">
+  <img class="mySlides" src="341-3414986_illustration-showing-a-group-of-medical-professionals-professionals.png" style="width:100%">
+  <img class="mySlides" src="istockphoto-1220169486-640x640.jpg" style="width:100%">
+  <img class="mySlides" src="148257589-paramedic-emergency-ambulance-cartoon-composition-with-modern-city-landscape-and-doctor-doing-blood-.jpg" style="width:100%">
+  <img class="mySlides" src="118851176-pharmacy-business-drug-store-industry-character-typography-poster-pharmacist-cure-patient-profession.jpg" style="width:100%">
+  <img class="mySlides" src="online-health-care-poster-with-phone-and-ambulance-vector.jpg" style="width:100%">
+  
+  
+  <br>
+  <marquee direction="right">
+   <h3><b>Our 24*7 Helpline Number 10000000001</b></h3>
+</marquee>
+</div>
+<br>
+
+<div class="footer" align="center">
+All Rights Reserved &copy; 2021 &mdash; MedicMind
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
+</body>
+
+
+</html>	 
